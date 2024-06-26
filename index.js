@@ -32,10 +32,10 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
-      "service_80ih0if",
-      "template_d9refyl",
+      "service_97s2vuh",
+      "template_ktuq7yp",
       event.target,
-      "user_K1PoFs8pB2YVWStDxrUls"
+      "CMx-u5cRiT0DopOxB"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
@@ -57,3 +57,8 @@ function toggleModal() {
   isModalOpen = true;
   document.body.classList += " modal--open";
 }
+
+
+// template_ktuq7yp
+// service_97s2vuh
+// CMx-u5cRiT0DopOxB
